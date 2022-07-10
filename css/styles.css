@@ -1,0 +1,108 @@
+/* футер контакты rgba(255, 255, 255, 0.6); */
+
+/* цвет заголовков #212121,
+		 кроме h1- #FFFFFF */
+
+/* цвет текста #757575 */
+
+/* акцент #2196F3 */
+
+/* основной цвет фона bgc	#2F303A */
+/* фон шапки #FFFFFF*/
+/* фон секции #E5E5E5  #F5F4FA */
+
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+}
+
+body {
+	background-color: #2f303a;
+	color: var(--primary-text-color);
+}
+/* header */
+.header {
+	background-color: #ffffff;
+}
+
+.logo {
+	color: var(--accent-color);
+}
+
+.list {
+	list-style: none;
+}
+/* или убрать точки в списках можно ul {list-style: none} , это в том случае. если они нигдде не нужны */
+
+/* site-nav and site-auth */
+.nav .link {
+	color: #212121;
+}
+.nav .link:hover,
+.nav .link:focus {
+	color: #2196f3;
+}
+.nav .link.current {
+	color: var(--accent-color);
+}
+
+.auth .link {
+	color: #757575;
+}
+.auth .link:hover,
+.auth .link:focus {
+	color: #2196f3;
+}
+
+/* Hero */
+.hero .title {
+	color: #ffffff;
+}
+/* button */
+.button {
+	color: #ffffff;
+	background-color: #2196f3;
+}
+
+/* особенности */
+.features-page {
+	background-color: #e5e5e5;
+}
+
+.features .title {
+	color: #212121;
+}
+
+.work {
+	background-color: #e5e5e5;
+}
+.team {
+	background-color: #f5f4fa;
+}
+.team .title {
+	color: #212121;
+}
+/* footer */
+.address {
+	color: #ffffff;
+}
+.footer .link {
+	color: rgba(255, 255, 255, 0.6);
+}
+/* PORTFOLIO */
+.main {
+	background-color: #e5e5e5;
+}
+.filter .button {
+	background-color: #f5f4fa;
+	color: #212121;
+}
+.filter .button:hover,
+.filter .button:focus {
+	background-color: var(--accent-color);
+	color: #ffffff;
+}
+.title-projects {
+	color: #212121;
+}
