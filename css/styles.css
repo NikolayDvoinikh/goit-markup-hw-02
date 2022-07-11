@@ -19,6 +19,7 @@
 
 body {
 	color: var(--primary-text-color);
+	font-family: "Roboto", sans-serif;
 }
 .title {
 	color: var(--title-text-color);
@@ -27,6 +28,11 @@ body {
 
 .logo {
 	color: var(--accent-color);
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
 }
 
 .list {
@@ -47,7 +53,7 @@ body {
 }
 
 .auth .link {
-	color: #757575;
+	color: currentColor;
 }
 .auth .link:hover,
 .auth .link:focus {
@@ -65,6 +71,7 @@ body {
 .button {
 	color: #ffffff;
 	background-color: var(--accent-color);
+	cursor: pointer;
 }
 
 /* особенности */
@@ -82,6 +89,11 @@ body {
 .footer .link {
 	color: rgba(255, 255, 255, 0.6);
 }
+.footer .link:hover,
+.footer .link:focus {
+	color: var(--accent-color);
+}
+/* «С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
 /* PORTFOLIO */
 
 .filter .button {
