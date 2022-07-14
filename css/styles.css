@@ -2,7 +2,7 @@
 	--primary-text-color: #757575;
 	--title-text-color: #212121;
 	--accent-color: #2196f3;
-	--white-simple: #ffffff;
+	--second-text-color: #ffffff;
 }
 
 body {
@@ -80,7 +80,7 @@ body {
 /* ПОСТАВИЛ ДЛЯ ВИДИМОСТИ ТЕКСТА */
 
 .hero .title {
-	color: var(--white-simple);
+	color: var(--second-text-color);
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 44px;
@@ -91,7 +91,7 @@ body {
 /* button */
 
 .hero-button {
-	color: var(--white-simple);
+	color: var(--second-text-color);
 	background-color: var(--accent-color);
 	cursor: pointer;
 	font-family: inherit;
@@ -123,10 +123,7 @@ body {
 /* .team {
 	background-color: #f5f4fa;
 } */
-.name {
-	font-size: 16px;
-	line-height: 1.19;
-}
+.name,
 .profession {
 	font-size: 16px;
 	line-height: 1.19;
@@ -138,11 +135,12 @@ body {
 }
 /* ПОСТАВИЛ ДЛЯ ВИДИМОСТИ ТЕКСТА */
 .logo-white {
-	color: var(--white-simple);
+	color: var(--second-text-color);
 }
 .address {
-	color: var(--white-simple);
+	color: var(--second-text-color);
 	font-style: normal;
+	text-decoration: none;
 }
 .link-address {
 	color: rgba(255, 255, 255, 0.6);
@@ -164,7 +162,7 @@ body {
 .button:hover,
 .button:focus {
 	background-color: var(--accent-color);
-	color: var(--white-simple);
+	color: var(--second-text-color);
 }
 .projects-title {
 	font-size: 18px;
