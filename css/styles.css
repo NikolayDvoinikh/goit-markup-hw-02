@@ -10,7 +10,6 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
 
@@ -111,6 +110,10 @@ body {
 	line-height: 1.14;
 	text-transform: uppercase;
 }
+.features-text {
+	font-size: 14px;
+	line-height: 1.71;
+}
 
 /* --------------Чем мы занимаемся------------- */
 .work > .title,
@@ -123,7 +126,11 @@ body {
 /* .team {
 	background-color: #f5f4fa;
 } */
-.name,
+.name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+}
 .profession {
 	font-size: 16px;
 	line-height: 1.19;
@@ -141,10 +148,14 @@ body {
 	color: var(--second-text-color);
 	font-style: normal;
 	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.71;
 }
 .link-address {
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
 }
 
 /* -----------------PORTFOLIO---------------*/
